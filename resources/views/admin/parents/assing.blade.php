@@ -18,7 +18,7 @@
           <div class="tile">
             <div class="row">
               <div class="col-lg-12">
-                <form method="POST" action="{{Route('cuidador.store')}}">
+                <form method="GET" action="{{ Route('assing.create') }}">
                   @csrf
                   @include('admin.parents._assingForm',['btntxt'=>'Asignar Cuidador'])
                 </form>

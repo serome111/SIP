@@ -35,7 +35,7 @@ class UsersParentsController extends Controller
      */
     public function create()
     {
-        return "Hola";
+        return redirect()->route('assing.index')->with('status', 'Modulo en desarrollo, contacte con el desarrollador XD');
     }
 
     /**

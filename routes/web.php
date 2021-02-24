@@ -19,6 +19,6 @@ Route::get('/', function () {
     return view('dashboard');
 });
 
-Route::resource('cuidador', ParentsController::class);
+Route::resource('cuidador', ParentsController::class,['except' => ['show','destroy']]);
 //asignar cuidador
-Route::resource('assing', UsersParentsController::class);
+Route::resource('assing', UsersParentsController::class,['except' => ['show','store','edit','update','destroy']]);
