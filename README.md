@@ -6,3 +6,9 @@
 ->crear una base de datos con nombre `SIP`
 
 ->ejecutar la migracion `php artisan migrate`
+
+->ejecutar `npm install `
+
+-> ejecutar `npm run dev`
+
+

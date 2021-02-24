@@ -13,7 +13,7 @@
           <li><a class="treeview-item" href="{{Route('cuidador.index')}}"><i class="icon fa fa-circle-o"></i>lista de Cuidadores</a></li>
           <li><a class="treeview-item" href="{{Route('cuidador.create')}}"><i class="icon fa fa-circle-o"></i>Crear Cuidador</a></li>
           <li><a class="treeview-item" href="{{Route('assing.index')}}"><i class="icon fa fa-circle-o"></i>Asignar Cuidador</a></li>
-          <li><a class="treeview-item" href="widgets.html"><i class="icon fa fa-circle-o"></i> Reporte de cuidador</a></li>
+          {{-- <li><a class="treeview-item" href="widgets.html"><i class="icon fa fa-circle-o"></i> Reporte de cuidador</a></li> este ya fue includo dentro de otra vista--}}
         </ul>
       </li>
     </ul>
